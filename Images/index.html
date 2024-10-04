@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoilBoy.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-amber-50">
+  <header class="p-11">
+    <nav class="container-fluid mx-auto flex items-center justify-between relative">
+        <!-- Mobile Dropdown Button and Icons -->
+        <div class="flex md:hidden items-center justify-between w-full">
+            <!-- Left: Dropdown Button -->
+            <button id="dropdown-button" class="font-semibold text-gray-700 hover:text-blue-500 cursor-pointer">
+              <i class="fas fa-bars text-2xl"></i>
+            </button>
+            <!-- Right: Shop Icon -->
+            <a href="#" class="font-semibold text-gray-700 hover:text-blue-500 cursor-pointer"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+
+        <!-- Center Logo (Always Centered) -->
+        <div class="absolute left-1/2 transform -translate-x-1/2">
+            <a href="#" class="text-3xl font-bold">soilboy.</a>
+        </div>
+  
+        <!-- Desktop Navigation Links -->
+        <div class="hidden md:flex space-x-8 ml-14">
+            <a href="#" class="font-semibold text-gray-700 hover:text-blue-500 cursor-pointer">Plant</a>
+            <a href="#" class="font-semibold text-gray-700 hover:text-blue-500 cursor-pointer">Workspace</a>
+            <a href="#" class="font-semibold text-gray-700 hover:text-blue-500 cursor-pointer">Lifestyle</a>
+        </div>
+  
+        <!-- Desktop Icons -->
+        <div class="hidden md:flex items-center space-x-4 md:space-x-8 mr-4 md:mr-14">
+            <a href="#" class="font-semibold text-gray-700 hover:text-blue-500 cursor-pointer"><i class="fas fa-user"></i></a> <!-- Login Icon -->
+            <a href="#" class="font-semibold text-gray-700 hover:text-blue-500 cursor-pointer"><i class="fas fa-shopping-cart"></i></a> <!-- Shop Icon -->
+            <a href="#" class="font-semibold text-black px-4 py-1 rounded-full border border-black hover:bg-black hover:text-white cursor-pointer">Contact us</a> <!-- Contact Button -->
+        </div>
+    </nav>
+  
+    <!-- Mobile Dropdown Menu -->
+    <div class="md:hidden">
+        <ul id="dropdown-menu" class="hidden flex flex-col items-center space-y-4 mt-4">
+            <li><a href="#" class="font-semibold text-gray-700 hover:text-blue-500 cursor-pointer">Plant</a></li>
+            <li><a href="#" class="font-semibold text-gray-700 hover:text-blue-500 cursor-pointer">Workspace</a></li>
+            <li><a href="#" class="font-semibold text-gray-700 hover:text-blue-500 cursor-pointer">Lifestyle</a></li>
+        </ul>
+    </div>
+  </header>
+  
+        <!--lifestyle-  -->
+  
+  
+        <div class="container-fluid mx-4 sm:mx-8 md:mx-16 mt-8 mb-8 sm:mt-12 md:mt-16 px-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
+            <!-- Product Card 1 -->
+            <div class="relative rounded-lg flex flex-col h-[500px] md:h-[600px] lg:h-[800px] group">
+              <div class="flex-1 flex items-center justify-center relative">
+                <img src="./Mini-pp-02.jpg" alt="Product Image" class="w-full h-full object-cover rounded-t-lg transition-opacity duration-300 group-hover:opacity-0">
+                <img src="./Mini-pp-03.jpg" alt="Hover Image" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
+              <h2 class="text-lg sm:text-xl font-semibold mt-4 text-center">Table Plant Platform</h2>
+              <p class="text-gray-600 mt-1 text-center font-semibold">SGD 59.00</p>
+            </div>
+            <!-- Product Card 2 -->
+            <div class="relative rounded-lg flex flex-col h-[500px] md:h-[600px] lg:h-[800px] group">
+              <div class="flex-1 flex items-center justify-center relative">
+                <img src="./short_p_01.jpg" alt="Product Image" class="w-full h-full object-cover rounded-t-lg transition-opacity duration-300 group-hover:opacity-0">
+                <img src="./Short_p_03.jpg" alt="Hover Image" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
+              <h2 class="text-lg sm:text-xl font-semibold mt-4 text-center">Plant Platform 01</h2>
+              <p class="text-gray-600 mt-1 text-center font-semibold">SGD 229.00</p>
+            </div>
+            <!-- Product Card 3 -->
+            <div class="relative rounded-lg flex flex-col h-[500px] md:h-[600px] lg:h-[800px] group">
+              <div class="flex-1 flex items-center justify-center relative">
+                <img src="./Tall-04.jpg" alt="Product Image" class="w-full h-full object-cover rounded-t-lg transition-opacity duration-300 group-hover:opacity-0">
+                <img src="./Tall-03.jpg" alt="Hover Image" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
+              <h2 class="text-lg sm:text-xl font-semibold mt-4 text-center">Plant Platform 02</h2>
+              <p class="text-gray-600 mt-1 text-center font-semibold">SGD 359.00</p>
+            </div>
+            <!-- Product Card 4 -->
+            <div class="relative rounded-lg flex flex-col h-[500px] md:h-[600px] lg:h-[800px] group">
+              <div class="flex-1 flex items-center justify-center relative">
+                <img src="./IMG_3171.jpg" alt="Product Image" class="w-full h-full object-cover rounded-t-lg transition-opacity duration-300 group-hover:opacity-0">
+                <img src="./SB-x-ATOS.jpg" alt="Hover Image" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
+              <h2 class="text-lg sm:text-xl font-semibold mt-4 text-center">Hinoki Candle | Wild Grove & Cypress</h2>
+              <p class="text-gray-600 mt-1 text-center font-semibold">SGD 128.00</p>
+            </div>
+            <!-- Product Card 5 -->
+            <div class="relative rounded-lg flex flex-col h-[500px] md:h-[600px] lg:h-[800px] group">
+              <div class="flex-1 flex items-center justify-center relative">
+                <img src="./Slower-Crate-Tabletop.jpg" alt="Product Image" class="w-full h-full object-cover rounded-t-lg transition-opacity duration-300 group-hover:opacity-0">
+                <img src="./DSC05694-2.jpg" alt="Hover Image" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
+              <h2 class="text-lg sm:text-xl font-semibold mt-4 text-center">Soilboy x Oak & Bindi Estoril Table Top (Pre-order)</h2>
+              <p class="text-gray-600 mt-1 text-center font-semibold">SGD 90.00</p>
+            </div>
+            <!-- Product Card 6 -->
+            <div class="relative rounded-lg flex flex-col h-[500px] md:h-[600px] lg:h-[800px] group">
+              <div class="flex-1 flex items-center justify-center relative">
+                <img src="./OaknBindi2-Nalgene-ProductBack.jpg" alt="Product Image" class="w-full h-full object-cover rounded-t-lg transition-opacity duration-300 group-hover:opacity-0">
+                <img src="./OaknBindi2-Nalgene1.jpg" alt="Hover Image" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
+              <h2 class="text-lg sm:text-xl font-semibold mt-4 text-center">Soilboy x Oak & Bindi Nalgene 32oz Bottle</h2>
+              <p class="text-gray-600 mt-1 text-center font-semibold">SGD 63.00</p>
+            </div>
+            <!-- Product Card 7 -->
+            <div class="relative rounded-lg flex flex-col h-[500px] md:h-[600px] lg:h-[800px] group">
+              <div class="flex-1 flex items-center justify-center relative">
+                <img src=".//Sb+X+Oakandbindi+Fairies+Origin+Front.jpg" alt="Product Image" class="w-full h-full object-cover rounded-t-lg transition-opacity duration-300 group-hover:opacity-0">
+                <img src="./Sb+X+Oakandbindi+Fairies+Origin+Back.jpg" alt="Hover Image" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
+              <h2 class="text-lg sm:text-xl font-semibold mt-4 text-center">Soilboy x Oak & Bindi Plant Fairies Origin Tee</h2>
+              <p class="text-gray-600 mt-1 text-center font-semibold">SGD 69.00</p>
+            </div>
+            <!-- Product Card 8 -->
+            <div class="relative rounded-lg flex flex-col h-[500px] md:h-[600px] lg:h-[800px] group">
+              <div class="flex-1 flex items-center justify-center relative">
+                <img src="./Soilboy-Cap_Front.jpg" alt="Product Image" class="w-full h-full object-cover rounded-t-lg transition-opacity duration-300 group-hover:opacity-0">
+                <img src="./IMG_8217.jpg" alt="Hover Image" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
+              <h2 class="text-lg sm:text-xl font-semibold mt-4 text-center">Soilboy Cap by Oak & Bindi</h2>
+              <p class="text-gray-600 mt-1 text-center font-semibold">SGD 49.00</p>
+            </div>
+            <!-- Product Card 9 -->
+            <div class="relative rounded-lg flex flex-col h-[500px] md:h-[600px] lg:h-[800px] group">
+              <div class="flex-1 flex items-center justify-center relative">
+                <img src="./01.jpg" alt="Product Image" class="w-full h-full object-cover rounded-t-lg transition-opacity duration-300 group-hover:opacity-0">
+                <img src="./IMG_7048.jpg" alt="Hover Image" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
+              <h2 class="text-lg sm:text-xl font-semibold mt-4 text-center">Goodtotes x Soilboy Shopper Bag</h2>
+              <p class="text-gray-600 mt-1 text-center font-semibold">SGD 69.00</p>
+            </div>
+            <!-- Product Card 10 -->
+            <div class="relative rounded-lg flex flex-col h-[500px] md:h-[600px] lg:h-[800px] group">
+              <div class="flex-1 flex items-center justify-center relative">
+                <img src="./Marble-Pebbles.jpg" alt="Product Image" class="w-full h-full object-cover rounded-t-lg transition-opacity duration-300 group-hover:opacity-0">
+                <img src="./Marble-Pebbles-side.jpg" alt="Hover Image" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
+              <h2 class="text-lg sm:text-xl font-semibold mt-4 text-center">Soilboy Pebbles - Marble/h2>
+              <p class="text-gray-600 mt-1 text-center font-semibold">SGD 12.90</p>
+            </div>
+            <!-- Product Card 11 -->
+            <div class="relative rounded-lg flex flex-col h-[500px] md:h-[600px] lg:h-[800px] group">
+              <div class="flex-1 flex items-center justify-center relative">
+                <img src="./Charcoal-Pebbles.jpg" alt="Product Image" class="w-full h-full object-cover rounded-t-lg transition-opacity duration-300 group-hover:opacity-0">
+                <img src="./Charcoal-Pebbles-side.jpg" alt="Hover Image" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
+              <h2 class="text-lg sm:text-xl font-semibold mt-4 text-center">Soilboy Pebbles - Charcoal</h2>
+              <p class="text-gray-600 mt-1 text-center font-semibold">SGD 12.90</p>
+            </div>
+            <!-- Product Card 12 -->
+            <div class="relative rounded-lg flex flex-col h-[500px] md:h-[600px] lg:h-[800px] group">
+              <div class="flex-1 flex items-center justify-center relative">
+                <img src="./Cream-Pebbles.jpg" alt="Product Image" class="w-full h-full object-cover rounded-t-lg transition-opacity duration-300 group-hover:opacity-0">
+                <img src="./Cream-Pebbles-side.jpg" alt="Hover Image" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
+              <h2 class="text-lg sm:text-xl font-semibold mt-4 text-center">Soilboy Pebbles - Speckled</h2>
+              <p class="text-gray-600 mt-1 text-center font-semibold">SGD 12.90</p>
+            </div>
+            
+          </div>
+        </div>
+        
+</body>
+
+<script>
+  // Toggle Dropdown Menu in Mobile View
+  const dropdownButton = document.getElementById('dropdown-button');
+  const dropdownMenu = document.getElementById('dropdown-menu');
+
+  dropdownButton.addEventListener('click', () => {
+      dropdownMenu.classList.toggle('hidden');
+  });
+</script>
+
+
+</html>
